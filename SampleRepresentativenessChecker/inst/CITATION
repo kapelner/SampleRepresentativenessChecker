@@ -1,0 +1,23 @@
+bibentry(bibtype = "Article",
+  title        = "Representative Samples For Online Surveys",
+  author       = c(person(given = "Adam",
+                          family = "Kapelner",
+                          email = "kapelner@qc.cuny.edu"),
+                   person(given = "Yoni",
+                          family = "Robinson",
+                          email = "jrobinson@touro.eduu"),
+                   person(given = "Leib",
+                          family = "Litman",
+                          email = "leib.litman@touro.edu")),
+  journal      = "working paper",
+  year         = "2017",
+  volume       = "",
+  number       = "",
+  pages        = "",
+
+  header       = "To cite SampleRepresentativenessChecker in publications use:",
+  textVersion  =
+  paste("Kapelner, A., Robinson, J. and Litman, L. (2017).",
+        "Representative Samples For Online Surveys. working paper")
+)
+

@@ -1,0 +1,21 @@
+Package: SampleRepresentativenessChecker
+Type: Package
+Title: Sample Representativeness Checker
+Version: 1.0
+Date: 2016-12-27
+Author: Adam Kapelner, Yoni Robinson, Leib Litman (R package)
+Maintainer: Adam Kapelner <kapelner@qc.cuny.edu>
+Description: Uses an equivalence hypothesis test to to check representativeness
+    of a sample for a population of interest given known cell probabilities in the
+    population. Includes confidence interval illustration and power illustrations
+    assuming a practical equivalence level.
+License: GPL-3
+Depends:
+    R (>= 3.0),
+    MultinomialCI,
+    rootSolve
+Imports:
+    graphics,
+    grDevices,
+    stats
+RoxygenNote: 5.0.1
