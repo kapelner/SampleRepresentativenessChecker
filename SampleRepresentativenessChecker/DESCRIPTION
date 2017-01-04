@@ -6,9 +6,9 @@ Date: 2016-12-27
 Author: Adam Kapelner, Yoni Robinson, Leib Litman (R package)
 Maintainer: Adam Kapelner <kapelner@qc.cuny.edu>
 Description: Uses an equivalence hypothesis test to to check representativeness
-    of a sample for a population of interest given known cell probabilities in the
-    population. Includes confidence interval illustration and power illustrations
-    assuming a practical equivalence level.
+    of a sample for a population of interest given known joint (or marginal) cell 
+    probabilities in the population assuming a user-specified practical equivalence 
+    level. Includes confidence interval illustration and investigative power illustrations.
 License: GPL-3
 Depends:
     R (>= 3.0),
@@ -18,4 +18,6 @@ Imports:
     graphics,
     grDevices,
     stats
+Suggests:
+	tensor
 RoxygenNote: 5.0.1
