@@ -33,7 +33,7 @@
 #'		#vectorize via tensor multiplication
 #'		pi = c(tensor(tensor(tensor(pi_gender, pi_ethnicity), pi_age), pi_region))
 #'		#pretend to collect data
-#' 		n = 1000
+#'		n = 1000
 #'		x = rmultinom(1, n, pi)
 #'		res = runSingleRepresentativenessTest(pi, x, delta = 0.03, alpha = 0.05)
 #'		res$pval
@@ -157,8 +157,8 @@ runSingleRepresentativenessTest = function(
 #' 				delta = 0.03,
 #' 				alpha = 0.05)
 #'		res$pval
-#' 		#you can also see this by running all tests and then doing 
-#' 		#the p-val correction at the end
+#'		#you can also see this by running all tests and then doing 
+#'		#the p-val correction at the end
 #'		res1 = runSingleRepresentativenessTest(pi_gender, x_gender, 
 #' 				delta = 0.03, alpha = 0.05)
 #'		res2 = runSingleRepresentativenessTest(pi_ethnicity, x_ethnicity, 

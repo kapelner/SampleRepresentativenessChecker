@@ -50,7 +50,7 @@ This makes use of the package \code{MultinomialCI} which is based on the method 
 	#vectorize via tensor multiplication
 	pi = c(tensor(tensor(tensor(pi_gender, pi_ethnicity), pi_age), pi_region))
 	#pretend to collect data
-		n = 1000
+	n = 1000
 	x = rmultinom(1, n, pi)
 	res = runSingleRepresentativenessTest(pi, x, delta = 0.03, alpha = 0.05)
 	res$pval
